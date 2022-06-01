@@ -23,7 +23,7 @@ Requirement:
         
         Delete a product
             When a product is deleted, it should no longer be included in any of the API responses but should remain in the database for audit purposes.
-==============================================================================================================================
+==============================================================
 Create .env File 
 Add Below configurations
 
@@ -38,7 +38,7 @@ CURRENCY_LIVE_RATES_API=https://api.apilayer.com/exchangerates_data/latest
 CURRENCY_CONVERT_API=https://api.apilayer.com/exchangerates_data/convert
 CURRENCIES=USD,CAD,EUR,GBP
 BASE_CURRENCY=USD
-==============================================================================================================================
+==============================================================
 To start the REST API
 create a database "catalog"
 - CREATE DATABASE catalog
@@ -48,9 +48,11 @@ create a database "catalog"
 - npm test //To check the test
 - ./node_modules/.bin/esdoc //To create/update the esdocs
 
-==============================================================================================================================
+==============================================================
 Development Environment Details
 Total: VS Code
 MySQL: 5.7
 Node: 16.13.1
 NPM: 8.10.0
+documentation tool: esdoc
+test: mocha and chai
