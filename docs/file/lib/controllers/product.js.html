@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">lib/controllers/product.js | product-rest-api</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Product Management Rest API"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="product-rest-api"><meta property="twitter:description" content="Product Management Rest API"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/pankajkumar6401/product-rest-api"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  </ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">lib/controllers/product.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">&quot;use strict&quot;;
+var __awaiter = (this &amp;&amp; this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator[&quot;throw&quot;](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, &quot;__esModule&quot;, { value: true });
+exports.deleteProduct = exports.getMostViewedProducts = exports.getProduct = exports.addProduct = void 0;
+const product_1 = require(&quot;../models/product&quot;);
+/**
+ * Function to add Product
+ * @param {*} req
+ */
+const addProduct = (req) =&gt; __awaiter(void 0, void 0, void 0, function* () {
+    console.log(&quot;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; Inside addProduct &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&quot;);
+    let payload = req.orig.payload;
+    try {
+        console.log(&quot;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; Inside addProduct: Payload before adding &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&quot;, payload);
+        yield product_1.Product.create(payload);
+        //saveProduct(payload)
+        return true;
+    }
+    catch (error) {
+        console.log(&quot;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; Error while adding product&quot;, error);
+        throw error;
+    }
+});
+exports.addProduct = addProduct;
+/**
+ * Function to get Product based on
+ * @param {*} req
+ *
+ */
+const getProduct = (req) =&gt; __awaiter(void 0, void 0, void 0, function* () {
+    console.log(&quot;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; Inside getProduct &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&quot;);
+    try {
+        let params = req.orig.params;
+        console.log(&quot;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; Inside getProduct: Params &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&quot;, params);
+        const product = yield product_1.Product.findOne({ where: { id: params.id, isDeleted: 0 } });
+        if (product) {
+            yield product_1.Product.increment({ productViewed: 1 }, { where: { id: params.id } });
+            console.log(&quot;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;Product&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&quot;, product_1.Product);
+        }
+        else {
+            console.log(&quot;product not found&quot;);
+        }
+    }
+    catch (error) {
+        console.log(&quot;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; Error while getting product&quot;, error);
+        throw error;
+    }
+    return true;
+});
+exports.getProduct = getProduct;
+/**
+ * Function to add Product
+ * @param {*} req
+ * @param {*} h
+ */
+const getMostViewedProducts = (req) =&gt; __awaiter(void 0, void 0, void 0, function* () {
+    console.log(&quot;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; Inside getMostViewedProducts &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&quot;);
+    return true;
+});
+exports.getMostViewedProducts = getMostViewedProducts;
+/**
+ * Function to add Product
+ * @param {*} req
+ *
+ */
+const deleteProduct = (req) =&gt; __awaiter(void 0, void 0, void 0, function* () {
+    console.log(&quot;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; Inside deleteProduct &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&quot;);
+    try {
+        let payload = req.orig.payload;
+        yield product_1.Product.destroy({ where: { id: payload.id } });
+    }
+    catch (error) {
+        console.log(&quot;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; Error while getting product&quot;, error);
+        throw error;
+    }
+    return true;
+});
+exports.deleteProduct = deleteProduct;
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

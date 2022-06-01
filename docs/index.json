@@ -1,0 +1,1259 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/controllers/product.ts",
+    "content": "import { Product } from \"../models/product\";\r\n\r\n/**\r\n * Function to add Product\r\n * @param {{name: string, price: number, description: ?string}} req\r\n * @return {Promise<status:boolean, data:Object, message: string , Error>}\r\n */\r\nexport const addProduct = async (req:any) => {\r\n    console.log(\">>>>>>>>> Inside addProduct <<<<<<<<<<<<<<<<<<<\");\r\n    let payload = req.orig.payload;\r\n    try{\r\n        console.log(\">>>>>>>>> Inside addProduct: Payload before adding <<<<<<<<<<<<<<<<<<<\",payload);\r\n        await Product.create(payload);\r\n        //saveProduct(payload)\r\n        return {status:true,data:{},message:\"Successfully created the product\"}\r\n    }catch(error){\r\n        console.log(\">>>>>>>>>>>>>> Error while adding product\", error);\r\n        throw error;\r\n    }\r\n}; \r\n\r\n/**\r\n * Function to get Product based on \r\n * @param {{id:number, currency: ?string}} req\r\n * @return {Promise<status:boolean,data:Object, message: string , Error>}\r\n */\r\n export const getProduct = async (req:any) => {\r\n    console.log(\">>>>>>>>> Inside getProduct <<<<<<<<<<<<<<<<<<<\");\r\n    try {\r\n        let params = req.orig.params;\r\n        console.log(\">>>>>>>>> Inside getProduct: Params <<<<<<<<<<<<<<<<<<<\",params);\r\n        const product = await Product.findOne({where: {id: params.id, isDeleted:0}});\r\n        if(product){\r\n            await Product.increment({productViewed:1},{where:{id:params.id}});\r\n            console.log(\">>>>>>>>>>>>>>>>>>Product<<<<<<<<<<<<<<<<<\", Product);\r\n        }else{\r\n            return {\r\n                status: true,\r\n                data: {},\r\n                message: \"No matching product found\"\r\n            }\r\n        }    \r\n    } catch (error) {\r\n        console.log(\">>>>>>>>>>>>>> Error while getting product\", error);\r\n        throw error;\r\n    }\r\n};\r\n\r\n/**\r\n * Function to getMostViewedProducts and by default it will return 5 products.\r\n * @param {total: ?number,currency: ?string}} req\r\n * @return {Promise<status:boolean,data:Object , Error>}\r\n */\r\n export const getMostViewedProducts = async (req:any) => {\r\n    console.log(\">>>>>>>>> Inside getMostViewedProducts <<<<<<<<<<<<<<<<<<<\");\r\n    \r\n    try {\r\n        let params = req.orig.params;\r\n        const products = await Product.findMostViewedProducts(params);\r\n        //if currency is provided then we need to call API to convert each price into target currency\r\n        return {\r\n            status: true,\r\n            products\r\n        }\r\n    } catch (error) {\r\n        console.log(\">>>>>>>>>>>>>> Error while getting product\", error);\r\n        throw error;\r\n    }\r\n};\r\n\r\n/**\r\n * Function to delete Product\r\n * @param {{id: number}} req\r\n * @return {Promise<status:boolean,data:Object , Error>}\r\n */\r\n export const deleteProduct = async (req:any) => {\r\n    console.log(\">>>>>>>>> Inside deleteProduct <<<<<<<<<<<<<<<<<<<\");\r\n    try {\r\n        let payload = req.orig.payload;\r\n        await Product.markDelete(payload);\r\n        return {\r\n            status: true,\r\n            data: {}\r\n        }\r\n    } catch (error) {\r\n        console.log(\">>>>>>>>>>>>>> Error while getting product\", error);\r\n        throw error;\r\n    }\r\n};\r\n",
+    "static": true,
+    "longname": "C:/Users/Pankaj/virtualkey/product-rest-api/src/controllers/product.ts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "function",
+    "name": "addProduct",
+    "memberof": "src/controllers/product.ts",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/controllers/product.ts~addProduct",
+    "access": "public",
+    "export": true,
+    "importPath": "product-rest-api/src/controllers/product.ts",
+    "importStyle": "{addProduct}",
+    "description": "Function to add Product",
+    "lineNumber": 7,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "{name: string, price: number, description: ?string}"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<status:boolean, data:Object, message: string , Error>"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 50,
+    "kind": "function",
+    "name": "getProduct",
+    "memberof": "src/controllers/product.ts",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/controllers/product.ts~getProduct",
+    "access": "public",
+    "export": true,
+    "importPath": "product-rest-api/src/controllers/product.ts",
+    "importStyle": "{getProduct}",
+    "description": "Function to get Product based on",
+    "lineNumber": 26,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "{id:number, currency: ?string}"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<status:boolean,data:Object, message: string , Error>"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 51,
+    "kind": "function",
+    "name": "getMostViewedProducts",
+    "memberof": "src/controllers/product.ts",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/controllers/product.ts~getMostViewedProducts",
+    "access": "public",
+    "export": true,
+    "importPath": "product-rest-api/src/controllers/product.ts",
+    "importStyle": "{getMostViewedProducts}",
+    "description": "Function to getMostViewedProducts and by default it will return 5 products.",
+    "lineNumber": 54,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "total: ?number,currency: ?string}"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<status:boolean,data:Object , Error>"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "function",
+    "name": "deleteProduct",
+    "memberof": "src/controllers/product.ts",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/controllers/product.ts~deleteProduct",
+    "access": "public",
+    "export": true,
+    "importPath": "product-rest-api/src/controllers/product.ts",
+    "importStyle": "{deleteProduct}",
+    "description": "Function to delete Product",
+    "lineNumber": 75,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "{id: number}"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<status:boolean,data:Object , Error>"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "file",
+    "name": "src/index.ts",
+    "content": "import { init, start } from \"./server\";\r\n\r\ninit().then(() => start());",
+    "static": true,
+    "longname": "C:/Users/Pankaj/virtualkey/product-rest-api/src/index.ts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 54,
+    "kind": "file",
+    "name": "src/interfaces/route.ts",
+    "content": "/**\r\n * Interface Route\r\n */\r\nexport interface Route {\r\n    method: string\r\n    path: string\r\n    config: {\r\n      auth?: false\r\n      handler: (req: any) => any\r\n      description: string\r\n      validate: any\r\n    }\r\n}",
+    "static": true,
+    "longname": "C:/Users/Pankaj/virtualkey/product-rest-api/src/interfaces/route.ts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 55,
+    "kind": "file",
+    "name": "src/models/dbConnection.ts",
+    "content": "import { Dialect, Sequelize } from 'sequelize'\r\nimport dotenv from \"dotenv\";\r\ndotenv.config()\r\n\r\nconst dbName = process.env.DB_NAME as string;\r\nconst dbUser = process.env.DB_USER as string;\r\nconst dbHost = process.env.DB_HOST;\r\nconst dbDriver = process.env.DB_DRIVER as Dialect;\r\nconst dbPassword = process.env.DB_PASSWORD;\r\n\r\n/**\r\n * Creating connection with sequelize\r\n */\r\nconst sequelizeConnection = new Sequelize(dbName, dbUser, dbPassword, {\r\n    host: dbHost,\r\n    dialect: dbDriver\r\n});\r\n\r\nexport default sequelizeConnection;",
+    "static": true,
+    "longname": "C:/Users/Pankaj/virtualkey/product-rest-api/src/models/dbConnection.ts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 56,
+    "kind": "variable",
+    "name": "dbName",
+    "memberof": "src/models/dbConnection.ts",
+    "static": true,
+    "longname": "src/models/dbConnection.ts~dbName",
+    "access": "public",
+    "export": false,
+    "importPath": "product-rest-api/src/models/dbConnection.ts",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 57,
+    "kind": "variable",
+    "name": "dbUser",
+    "memberof": "src/models/dbConnection.ts",
+    "static": true,
+    "longname": "src/models/dbConnection.ts~dbUser",
+    "access": "public",
+    "export": false,
+    "importPath": "product-rest-api/src/models/dbConnection.ts",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 58,
+    "kind": "variable",
+    "name": "dbHost",
+    "memberof": "src/models/dbConnection.ts",
+    "static": true,
+    "longname": "src/models/dbConnection.ts~dbHost",
+    "access": "public",
+    "export": false,
+    "importPath": "product-rest-api/src/models/dbConnection.ts",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 59,
+    "kind": "variable",
+    "name": "dbDriver",
+    "memberof": "src/models/dbConnection.ts",
+    "static": true,
+    "longname": "src/models/dbConnection.ts~dbDriver",
+    "access": "public",
+    "export": false,
+    "importPath": "product-rest-api/src/models/dbConnection.ts",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 60,
+    "kind": "variable",
+    "name": "dbPassword",
+    "memberof": "src/models/dbConnection.ts",
+    "static": true,
+    "longname": "src/models/dbConnection.ts~dbPassword",
+    "access": "public",
+    "export": false,
+    "importPath": "product-rest-api/src/models/dbConnection.ts",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 61,
+    "kind": "file",
+    "name": "src/models/product.ts",
+    "content": "import {DataTypes, Model, Op, Sequelize} from \"sequelize\";\r\nimport sequelizeConnection from \"./dbConnection\"\r\n\r\n/**\r\n * Model Class for products table\r\n */\r\nexport class Product extends Model {\r\n    /**\r\n     * Function to get all mostly viewed products from the database\r\n     * total will be used as limit\r\n     * @param payload {total: number}\r\n     */\r\n    public static async findMostViewedProducts(payload:{total:number}):Promise<any>{\r\n        try {\r\n            return await Product.findAll({\r\n                where: {\r\n                    isDeleted:0, \r\n                    productViewed: {[Op.gt]: 0}\r\n                }, \r\n                order:[\r\n                    ['productViewed','DESC']\r\n                ]\r\n            });    \r\n        } catch (error) {\r\n            console.log(\">>>>>>>>>>>>>> models/product/findMostViewedProducts: Error >>>>>>>>>>>>>>>>>>\",error)\r\n            throw error;\r\n        }\r\n    }\r\n\r\n    /**\r\n     * Function to mark delete on product\r\n     * @param payload {id: number}\r\n     */\r\n    public static async markDelete(payload:{id:number}):Promise<any>{\r\n        try {\r\n            return await Product.update({isDeleted:1, deletedDate: Sequelize.literal('NOW()')},{where:{id: payload.id }});\r\n        } catch (error) {\r\n            console.log(\">>>>>>>>>>>>>> models/product/markDelete: Error >>>>>>>>>>>>>>>>>>\",error)\r\n            throw error;\r\n        }\r\n        \r\n    }\r\n}\r\n\r\n/**\r\n * initilization of Product Model\r\n */\r\nProduct.init({\r\n    id: {\r\n        type: DataTypes.INTEGER.UNSIGNED,\r\n        autoIncrement: true,\r\n        primaryKey: true,\r\n      },\r\n    name: {\r\n        type: DataTypes.STRING,\r\n        allowNull: false\r\n    },\r\n    price: {\r\n        type: DataTypes.DECIMAL,\r\n        allowNull: false\r\n    },\r\n    description: {\r\n        type: DataTypes.TEXT\r\n    },\r\n    isDeleted:{\r\n        type: DataTypes.TINYINT,\r\n        defaultValue: 0\r\n    },\r\n    productViewed:{\r\n        type: DataTypes.INTEGER,\r\n        defaultValue: 0\r\n    },\r\n    createdDate: {\r\n        type: DataTypes.DATE,\r\n    },\r\n    updatedDate: {\r\n        type: DataTypes.DATE,\r\n    },\r\n    deletedDate: {\r\n        type: DataTypes.DATE,\r\n    }\r\n},{\r\n    sequelize: sequelizeConnection,\r\n    timestamps: true,\r\n    createdAt: \"createdDate\",\r\n    updatedAt: \"updatedDate\",\r\n    deletedAt: \"deletedDate\",\r\n    modelName: 'Product'\r\n});\r\n\r\n/**\r\n * Creating table if not exist\r\n */\r\n(async () => {\r\n    await Product.sync();\r\n    // Code here\r\n  })();\r\n\r\n\r\n",
+    "static": true,
+    "longname": "C:/Users/Pankaj/virtualkey/product-rest-api/src/models/product.ts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 62,
+    "kind": "class",
+    "name": "Product",
+    "memberof": "src/models/product.ts",
+    "static": true,
+    "longname": "src/models/product.ts~Product",
+    "access": "public",
+    "export": true,
+    "importPath": "product-rest-api/src/models/product.ts",
+    "importStyle": "{Product}",
+    "description": "Model Class for products table",
+    "lineNumber": 7,
+    "interface": false,
+    "extends": [
+      "sequelize~Model"
+    ]
+  },
+  {
+    "__docId__": 63,
+    "kind": "method",
+    "name": "findMostViewedProducts",
+    "memberof": "src/models/product.ts~Product",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/models/product.ts~Product.findMostViewedProducts",
+    "access": "public",
+    "description": "Function to get all mostly viewed products from the database\ntotal will be used as limit",
+    "lineNumber": 13,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "undefined"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "payload",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "method",
+    "name": "markDelete",
+    "memberof": "src/models/product.ts~Product",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/models/product.ts~Product.markDelete",
+    "access": "public",
+    "description": "Function to mark delete on product",
+    "lineNumber": 34,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "undefined"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "payload",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 65,
+    "kind": "file",
+    "name": "src/routes/index.ts",
+    "content": "/**\r\n * This is the default file which will be imported for routes.\r\n * We can add multiple routes if required and exports using routes as array\r\n */\r\n\r\nimport { Route } from '../interfaces/route';\r\nimport * as route from \"./product\";\r\n\r\nexport const routes: Array<Route> = [\r\n    route.addProduct,\r\n    route.getProduct,\r\n    route.getMostViewedProducts,\r\n    route.deleteProduct\r\n];",
+    "static": true,
+    "longname": "C:/Users/Pankaj/virtualkey/product-rest-api/src/routes/index.ts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 66,
+    "kind": "variable",
+    "name": "routes",
+    "memberof": "src/routes/index.ts",
+    "static": true,
+    "longname": "src/routes/index.ts~routes",
+    "access": "public",
+    "export": true,
+    "importPath": "product-rest-api/src/routes/index.ts",
+    "importStyle": "{routes}",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "undefined[]"
+      ]
+    }
+  },
+  {
+    "__docId__": 67,
+    "kind": "file",
+    "name": "src/routes/product.ts",
+    "content": "/**\r\n * All Product related routes are exported from here\r\n */\r\nimport { Route } from \"../interfaces/route\";\r\nimport * as payloadValidation from \"./../schema/product\";\r\nimport * as productController from \"./../controllers/product\";\r\n\r\n/**\r\n * Add Product route\r\n */\r\nexport const addProduct: Route = {\r\n    method: \"POST\",\r\n    path: \"/addProduct\",\r\n    config: {\r\n        auth: false,\r\n        handler: productController.addProduct,\r\n        description: \"Add Product\",\r\n        validate: payloadValidation.addProduct\r\n    }\r\n};\r\n\r\n/**\r\n * Get Product route\r\n */\r\nexport const getProduct: Route = {\r\n    method: \"GET\",\r\n    path: \"/getProduct/{id}/{currency?}\",\r\n    config: {\r\n        auth: false,\r\n        handler: productController.getProduct,\r\n        description: \"Get a Single Product\",\r\n        validate: payloadValidation.getProduct\r\n    }\r\n};\r\n\r\n/**\r\n * Get Most Viewed Product route\r\n */\r\nexport const getMostViewedProducts: Route = {\r\n    method: \"GET\",\r\n    path: \"/getMostViewedProducts/{total}/{currency?}\",\r\n    config: {\r\n        auth: false,\r\n        handler: productController.getMostViewedProducts,\r\n        description: \"Get Most Viewed Products\",\r\n        validate: payloadValidation.getMostViewedProducts\r\n    }\r\n};\r\n\r\n/**\r\n * Delete Product Route\r\n */\r\nexport const deleteProduct: Route = {\r\n    method: \"DELETE\",\r\n    path: \"/deleteProduct\",\r\n    config: {\r\n        auth: false,\r\n        handler: productController.deleteProduct,\r\n        description: \"Delete Product\",\r\n        validate: payloadValidation.deleteProduct\r\n    }\r\n};\r\n",
+    "static": true,
+    "longname": "C:/Users/Pankaj/virtualkey/product-rest-api/src/routes/product.ts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 68,
+    "kind": "variable",
+    "name": "addProduct",
+    "memberof": "src/routes/product.ts",
+    "static": true,
+    "longname": "src/routes/product.ts~addProduct",
+    "access": "public",
+    "export": true,
+    "importPath": "product-rest-api/src/routes/product.ts",
+    "importStyle": "{addProduct}",
+    "description": "Add Product route",
+    "lineNumber": 6,
+    "type": {
+      "types": [
+        "{\"method\": string, \"path\": string, \"config\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 69,
+    "kind": "variable",
+    "name": "getProduct",
+    "memberof": "src/routes/product.ts",
+    "static": true,
+    "longname": "src/routes/product.ts~getProduct",
+    "access": "public",
+    "export": true,
+    "importPath": "product-rest-api/src/routes/product.ts",
+    "importStyle": "{getProduct}",
+    "description": "Get Product route",
+    "lineNumber": 19,
+    "type": {
+      "types": [
+        "{\"method\": string, \"path\": string, \"config\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 70,
+    "kind": "variable",
+    "name": "getMostViewedProducts",
+    "memberof": "src/routes/product.ts",
+    "static": true,
+    "longname": "src/routes/product.ts~getMostViewedProducts",
+    "access": "public",
+    "export": true,
+    "importPath": "product-rest-api/src/routes/product.ts",
+    "importStyle": "{getMostViewedProducts}",
+    "description": "Get Most Viewed Product route",
+    "lineNumber": 32,
+    "type": {
+      "types": [
+        "{\"method\": string, \"path\": string, \"config\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 71,
+    "kind": "variable",
+    "name": "deleteProduct",
+    "memberof": "src/routes/product.ts",
+    "static": true,
+    "longname": "src/routes/product.ts~deleteProduct",
+    "access": "public",
+    "export": true,
+    "importPath": "product-rest-api/src/routes/product.ts",
+    "importStyle": "{deleteProduct}",
+    "description": "Delete Product Route",
+    "lineNumber": 45,
+    "type": {
+      "types": [
+        "{\"method\": string, \"path\": string, \"config\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 72,
+    "kind": "file",
+    "name": "src/schema/product.ts",
+    "content": "import Joi from \"joi\";\r\n\r\n/**\r\n * Validation scehema for Add Product Route using Joi\r\n */\r\nexport const addProduct = {\r\n    payload: Joi.object(\r\n        {\r\n            name: Joi\r\n                .string()\r\n                .strip()\r\n                .required()\r\n                .description(\"Name of the Product\"),\r\n            price: Joi\r\n                .number()\r\n                .greater(0)\r\n                .strip()\r\n                .required()\r\n                .description(\"Price in USD upto two decimal points\"),\r\n            description: Joi\r\n                .string()\r\n                .strip()\r\n                .optional()\r\n                .description(\"Description of product\"),\r\n        }\r\n    )\r\n};\r\n\r\n/**\r\n * Validation scehema for Get Product Route using Joi\r\n */\r\nexport const getProduct = {\r\n    params: Joi.object(\r\n        {\r\n            id: Joi\r\n                .number()\r\n                .strip()\r\n                .required()\r\n                .description(\"Name of the Product\"),\r\n            currency: Joi\r\n                .string()\r\n                .strip()\r\n                .optional()\r\n                .valid(\"USD\",\"CAD\",\"EUR\",\"GBP\")\r\n                .description(\"Currency in which you want to see the product\")\r\n        }\r\n    )\r\n};\r\n\r\n/**\r\n * Validation scehema for Get Most Viewed Products Route using Joi\r\n */\r\nexport const getMostViewedProducts = {\r\n    params: Joi.object(\r\n        {\r\n            total: Joi\r\n                .number()\r\n                .strip()\r\n                .optional()\r\n                .default(5)\r\n                .description(\"Number of products\"),\r\n            currency: Joi\r\n                .string()\r\n                .strip()\r\n                .optional()\r\n                .valid(\"USD\",\"CAD\",\"EUR\",\"GBP\")\r\n                .description(\"Currency in which you want to see the product\")                    \r\n        }\r\n    )\r\n};\r\n\r\n/**\r\n * Validation scehema for Delete Product Route using Joi\r\n */\r\nexport const deleteProduct = {\r\n    payload: Joi.object(\r\n        {\r\n            id: Joi\r\n                .number()\r\n                .strip()\r\n                .required()\r\n                .description(\"Product Id\"),\r\n        }\r\n    )\r\n};",
+    "static": true,
+    "longname": "C:/Users/Pankaj/virtualkey/product-rest-api/src/schema/product.ts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 73,
+    "kind": "variable",
+    "name": "addProduct",
+    "memberof": "src/schema/product.ts",
+    "static": true,
+    "longname": "src/schema/product.ts~addProduct",
+    "access": "public",
+    "export": true,
+    "importPath": "product-rest-api/src/schema/product.ts",
+    "importStyle": "{addProduct}",
+    "description": "Validation scehema for Add Product Route using Joi",
+    "lineNumber": 5,
+    "type": {
+      "types": [
+        "{\"payload\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 74,
+    "kind": "variable",
+    "name": "getProduct",
+    "memberof": "src/schema/product.ts",
+    "static": true,
+    "longname": "src/schema/product.ts~getProduct",
+    "access": "public",
+    "export": true,
+    "importPath": "product-rest-api/src/schema/product.ts",
+    "importStyle": "{getProduct}",
+    "description": "Validation scehema for Get Product Route using Joi",
+    "lineNumber": 28,
+    "type": {
+      "types": [
+        "{\"params\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 75,
+    "kind": "variable",
+    "name": "getMostViewedProducts",
+    "memberof": "src/schema/product.ts",
+    "static": true,
+    "longname": "src/schema/product.ts~getMostViewedProducts",
+    "access": "public",
+    "export": true,
+    "importPath": "product-rest-api/src/schema/product.ts",
+    "importStyle": "{getMostViewedProducts}",
+    "description": "Validation scehema for Get Most Viewed Products Route using Joi",
+    "lineNumber": 46,
+    "type": {
+      "types": [
+        "{\"params\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 76,
+    "kind": "variable",
+    "name": "deleteProduct",
+    "memberof": "src/schema/product.ts",
+    "static": true,
+    "longname": "src/schema/product.ts~deleteProduct",
+    "access": "public",
+    "export": true,
+    "importPath": "product-rest-api/src/schema/product.ts",
+    "importStyle": "{deleteProduct}",
+    "description": "Validation scehema for Delete Product Route using Joi",
+    "lineNumber": 65,
+    "type": {
+      "types": [
+        "{\"payload\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 77,
+    "kind": "file",
+    "name": "src/server.ts",
+    "content": "import Hapi from \"@hapi/hapi\";\r\nimport { Server } from \"@hapi/hapi\";\r\nimport { exit } from \"process\";\r\nimport {routes} from \"./routes\";\r\n\r\nexport let server: Server;\r\n\r\n/**\r\n * Function to initilize Hapi Server and adding routes to it.\r\n * @returns {Promise<Server>}\r\n */\r\nexport const init = async (): Promise<Server> => {\r\n    server = Hapi.server({\r\n        port: process.env.PORT || 7700,\r\n        host: 'localhost'\r\n    });\r\n   \r\n    server.route(routes); \r\n\r\n    return server;\r\n};\r\n\r\n/**\r\n * Function to start Hapi Server.\r\n * @returns {void}\r\n */\r\nexport const start = async (): Promise<void> => {\r\n    console.log(`Listening on ${server.settings.host}:${server.settings.port}`);\r\n    return server.start();\r\n};\r\n\r\nprocess.on('unhandledRejection', (err) => {\r\n    console.error(\"unhandledRejection\");\r\n    console.error(err);\r\n    process.exit(1);\r\n});",
+    "static": true,
+    "longname": "C:/Users/Pankaj/virtualkey/product-rest-api/src/server.ts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 78,
+    "kind": "function",
+    "name": "init",
+    "memberof": "src/server.ts",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/server.ts~init",
+    "access": "public",
+    "export": true,
+    "importPath": "product-rest-api/src/server.ts",
+    "importStyle": "{init}",
+    "description": "Function to initilize Hapi Server and adding routes to it.",
+    "lineNumber": 8,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise<Server>}"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Server>"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 79,
+    "kind": "function",
+    "name": "start",
+    "memberof": "src/server.ts",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/server.ts~start",
+    "access": "public",
+    "export": true,
+    "importPath": "product-rest-api/src/server.ts",
+    "importStyle": "{start}",
+    "description": "Function to start Hapi Server.",
+    "lineNumber": 20,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{void}"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "void"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 80,
+    "kind": "file",
+    "name": "src/test/test.ts",
+    "content": "import { beforeEach,afterEach,describe,it } from 'mocha';\r\nimport { init } from \"./../server\";\r\nimport { Server } from \"@hapi/hapi\";\r\nimport { expect } from \"chai\"\r\n\r\n/**\r\n * Test for Get Product API\r\n */\r\ndescribe('Get Products API Testing', ()=>{\r\n    let server:Server;\r\n\r\n    beforeEach(async ()=>{\r\n        server = await init();\r\n    });\r\n\r\n    afterEach(async ()=>{\r\n        await server.stop();\r\n    });\r\n\r\n    it('getProducts Without Currency', async () => {\r\n        const res = await server.inject({\r\n            method: 'get',\r\n            url: '/getProduct/1'\r\n        });\r\n        expect(res.statusCode).to.equal(200);\r\n    });\r\n\r\n    it('getProducts With Valid Currency', async () => {\r\n        const res = await server.inject({\r\n            method: 'get',\r\n            url: '/getProduct/1/USD'\r\n        });\r\n        expect(res.statusCode).to.equal(200);\r\n    });\r\n\r\n    it('getProducts With Wrong Currency', async () => {\r\n        const res = await server.inject({\r\n            method: 'get',\r\n            url: '/getProduct/1/INR'\r\n        });\r\n        expect(res.statusCode).to.equal(400);\r\n    });\r\n});\r\n\r\n/**\r\n * Test for Add Product API\r\n */\r\ndescribe('Add Products API Testing', ()=>{\r\n    let server:Server;\r\n\r\n    beforeEach(async ()=>{\r\n        server = await init();\r\n    });\r\n\r\n    afterEach(async ()=>{\r\n        await server.stop();\r\n    });\r\n\r\n    it('addProducts without description', async () => {\r\n        const res = await server.inject({\r\n            method: 'post',\r\n            url: '/addProduct',\r\n            payload: { name: \"CBR 650F\", price: 1.34 },\r\n        });\r\n        expect(res.statusCode).to.equal(200);\r\n    });\r\n\r\n    it('addProducts with description', async () => {\r\n        const res = await server.inject({\r\n            method: 'post',\r\n            url: '/addProduct',\r\n            payload: { name: \"CBR 650F\", price: 1.34, description: \"test description\" },\r\n        });\r\n        expect(res.statusCode).to.equal(200);\r\n    });\r\n\r\n    it('addProducts price should be greater than 0', async () => {\r\n        const res = await server.inject({\r\n            method: 'post',\r\n            url: '/addProduct',\r\n            payload: { name: \"CBR 650F\", price: 0 },\r\n        });\r\n        expect(res.statusCode).to.equal(400);\r\n    });\r\n\r\n    it('addProducts price is required', async () => {\r\n        const res = await server.inject({\r\n            method: 'post',\r\n            url: '/addProduct',\r\n            payload: { name: \"CBR 650F\" },\r\n        });\r\n        expect(res.statusCode).to.equal(400);\r\n    });\r\n\r\n    it('addProducts name is required', async () => {\r\n        const res = await server.inject({\r\n            method: 'post',\r\n            url: '/addProduct',\r\n            payload: { price: 1 },\r\n        });\r\n        expect(res.statusCode).to.equal(400);\r\n    });\r\n});",
+    "static": true,
+    "longname": "C:/Users/Pankaj/virtualkey/product-rest-api/src/test/test.ts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "kind": "index",
+    "content": "# product-rest-api\r\nProduct Management Rest API\r\n\r\nRequirement:\r\n    We would like you to create a REST API for managing products. The API should allow the following actions:\r\n        Create a new product\r\n            When creating a new product, the name and price of the product need to be provided. Optionally, a description can also be provided. \r\n            The price is assumed to be in USD. The product should be saved to a SQL database.\r\n        \r\n        Get a single product\r\n            When a single product is requested, all fields of that product are returned and the view-count for that product is incremented. \r\n            The request can optionally specify a currency, in which case the price should be converted to the requested currency before being returned. We need to support the following currencies:\r\n                USD\r\n                CAD\r\n                EUR\r\n                GBP\r\n            \r\n            The latest exchange rates can be retrieved from the public API https://currencylayer.com/ (or any similar API).\r\n        \r\n        List the most viewed products\r\n            When a list of the most viewed products is requested, the API should return the products with the highest view-counts. By default, the top 5 products will be returned, but the request can also specify a custom number of products to return. Only products with at least 1 view should be included. \r\n            A specific currency can also be specified in which case all the prices should be returned in that currency.\r\n        \r\n        Delete a product\r\n            When a product is deleted, it should no longer be included in any of the API responses but should remain in the database for audit purposes.\r\n",
+    "longname": "C:\\Users\\Pankaj\\virtualkey\\product-rest-api\\README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"product-rest-api\",\n  \"version\": \"1.0.0\",\n  \"description\": \"Product Management Rest API\",\n  \"main\": \"lib/index.js\",\n  \"scripts\": {\n    \"start\": \"nodemon -e js -w lib lib/index.js\",\n    \"docs\": \"./node_modules/.bin/esdoc\",\n    \"test\": \"npx tsc && mocha lib/test/test.js && exit 1\",\n    \"build\": \"npm test && tsc\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/pankajkumar6401/product-rest-api.git\"\n  },\n  \"author\": \"Pankaj Kumar\",\n  \"license\": \"MIT\",\n  \"bugs\": {\n    \"url\": \"https://github.com/pankajkumar6401/product-rest-api/issues\"\n  },\n  \"homepage\": \"https://github.com/pankajkumar6401/product-rest-api#readme\",\n  \"dependencies\": {\n    \"@hapi/hapi\": \"^20.2.2\",\n    \"dotenv\": \"^16.0.1\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"joi\": \"^17.6.0\",\n    \"mysql2\": \"^2.3.3\",\n    \"sequelize\": \"^6.20.1\"\n  },\n  \"devDependencies\": {\n    \"@types/chai\": \"^4.3.1\",\n    \"@types/hapi__hapi\": \"^20.0.12\",\n    \"@types/mocha\": \"^9.1.1\",\n    \"@types/node\": \"^17.0.36\",\n    \"chai\": \"^4.3.6\",\n    \"esdoc-typescript-plugin\": \"^1.0.1\",\n    \"mocha\": \"^10.0.0\",\n    \"typescript\": \"^4.7.2\"\n  }\n}\n",
+    "longname": "C:\\Users\\Pankaj\\virtualkey\\product-rest-api\\package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

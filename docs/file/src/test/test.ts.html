@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/test/test.ts | product-rest-api</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Product Management Rest API"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="product-rest-api"><meta property="twitter:description" content="Product Management Rest API"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/pankajkumar6401/product-rest-api"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-init">init</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-start">start</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#controllers">controllers</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addProduct">addProduct</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-deleteProduct">deleteProduct</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getMostViewedProducts">getMostViewedProducts</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getProduct">getProduct</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#models">models</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/models/product.ts~Product.html">Product</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#routes">routes</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-routes">routes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-addProduct">addProduct</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-deleteProduct">deleteProduct</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getMostViewedProducts">getMostViewedProducts</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getProduct">getProduct</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#schema">schema</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-addProduct">addProduct</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-deleteProduct">deleteProduct</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getMostViewedProducts">getMostViewedProducts</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getProduct">getProduct</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/test/test.ts</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import { beforeEach,afterEach,describe,it } from &apos;mocha&apos;;
+import { init } from &quot;./../server&quot;;
+import { Server } from &quot;@hapi/hapi&quot;;
+import { expect } from &quot;chai&quot;
+
+/**
+ * Test for Get Product API
+ */
+describe(&apos;Get Products API Testing&apos;, ()=&gt;{
+    let server:Server;
+
+    beforeEach(async ()=&gt;{
+        server = await init();
+    });
+
+    afterEach(async ()=&gt;{
+        await server.stop();
+    });
+
+    it(&apos;getProducts Without Currency&apos;, async () =&gt; {
+        const res = await server.inject({
+            method: &apos;get&apos;,
+            url: &apos;/getProduct/1&apos;
+        });
+        expect(res.statusCode).to.equal(200);
+    });
+
+    it(&apos;getProducts With Valid Currency&apos;, async () =&gt; {
+        const res = await server.inject({
+            method: &apos;get&apos;,
+            url: &apos;/getProduct/1/USD&apos;
+        });
+        expect(res.statusCode).to.equal(200);
+    });
+
+    it(&apos;getProducts With Wrong Currency&apos;, async () =&gt; {
+        const res = await server.inject({
+            method: &apos;get&apos;,
+            url: &apos;/getProduct/1/INR&apos;
+        });
+        expect(res.statusCode).to.equal(400);
+    });
+});
+
+/**
+ * Test for Add Product API
+ */
+describe(&apos;Add Products API Testing&apos;, ()=&gt;{
+    let server:Server;
+
+    beforeEach(async ()=&gt;{
+        server = await init();
+    });
+
+    afterEach(async ()=&gt;{
+        await server.stop();
+    });
+
+    it(&apos;addProducts without description&apos;, async () =&gt; {
+        const res = await server.inject({
+            method: &apos;post&apos;,
+            url: &apos;/addProduct&apos;,
+            payload: { name: &quot;CBR 650F&quot;, price: 1.34 },
+        });
+        expect(res.statusCode).to.equal(200);
+    });
+
+    it(&apos;addProducts with description&apos;, async () =&gt; {
+        const res = await server.inject({
+            method: &apos;post&apos;,
+            url: &apos;/addProduct&apos;,
+            payload: { name: &quot;CBR 650F&quot;, price: 1.34, description: &quot;test description&quot; },
+        });
+        expect(res.statusCode).to.equal(200);
+    });
+
+    it(&apos;addProducts price should be greater than 0&apos;, async () =&gt; {
+        const res = await server.inject({
+            method: &apos;post&apos;,
+            url: &apos;/addProduct&apos;,
+            payload: { name: &quot;CBR 650F&quot;, price: 0 },
+        });
+        expect(res.statusCode).to.equal(400);
+    });
+
+    it(&apos;addProducts price is required&apos;, async () =&gt; {
+        const res = await server.inject({
+            method: &apos;post&apos;,
+            url: &apos;/addProduct&apos;,
+            payload: { name: &quot;CBR 650F&quot; },
+        });
+        expect(res.statusCode).to.equal(400);
+    });
+
+    it(&apos;addProducts name is required&apos;, async () =&gt; {
+        const res = await server.inject({
+            method: &apos;post&apos;,
+            url: &apos;/addProduct&apos;,
+            payload: { price: 1 },
+        });
+        expect(res.statusCode).to.equal(400);
+    });
+});</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
