@@ -1,0 +1,143 @@
+{
+	"info": {
+		"_postman_id": "c42e3407-d5f2-4336-9f74-5ef89891708c",
+		"name": "Product REST API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7472425"
+	},
+	"item": [
+		{
+			"name": "getProduct",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/getProduct/1",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"getProduct",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get Most Viewed Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/getMostViewedProducts",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"getMostViewedProducts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get Most Viewed Products Currency",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/getMostViewedProducts/CAD/2",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"getMostViewedProducts",
+						"CAD",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addProduct",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"CBR 500\",\r\n    \"price\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/addProduct",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"addProduct"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteProduct",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/deleteProduct",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"deleteProduct"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "localhost:7700",
+			"type": "string"
+		}
+	]
+}

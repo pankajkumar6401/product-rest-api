@@ -3,6 +3,7 @@ services:
   mysqldb:
     image: mysql:5.7
     restart: unless-stopped
+    command: --default-authentication-plugin=mysql_native_password
     env_file: ./.env
     environment:
       - MYSQL_ROOT_PASSWORD=$MYSQLDB_ROOT_PASSWORD
@@ -19,12 +20,6 @@ services:
     env_file: ./.env
     ports:
       - $NODE_LOCAL_PORT:$NODE_DOCKER_PORT
-    # environment:
-    #   - DB_HOST=mysqldb
-    #   - DB_USER=$MYSQLDB_USER
-    #   - DB_PASSWORD=$MYSQLDB_ROOT_PASSWORD
-    #   - DB_NAME=$MYSQLDB_DATABASE
-    #   - DB_PORT=$MYSQLDB_DOCKER_PORT
     stdin_open: true
     tty: true
 volumes: 

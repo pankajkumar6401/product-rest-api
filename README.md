@@ -29,16 +29,31 @@ Add Below configurations
 
 DB_NAME=catalog
 DB_USER=root
-DB_HOST=localhost
+DB_HOST=172.17.0.1
 DB_DRIVER=mysql
 DB_PASSWORD=rootnahihai
+DB_PORT=3307
 
 CURRENCY_APIKEY=ByR2N38kuKmOkPKzPBoQTw2NeleKpmu6
 CURRENCY_LIVE_RATES_API=https://api.apilayer.com/exchangerates_data/latest
 CURRENCY_CONVERT_API=https://api.apilayer.com/exchangerates_data/convert
 CURRENCIES=USD,CAD,EUR,GBP
 BASE_CURRENCY=USD
-==============================================================
+
+
+MYSQLDB_USER=root
+MYSQLDB_ROOT_PASSWORD=rootnahihai
+MYSQLDB_DATABASE=catalog
+MYSQLDB_LOCAL_PORT=3307
+MYSQLDB_DOCKER_PORT=3306
+NODE_LOCAL_PORT=8080
+NODE_DOCKER_PORT=7700
+====================== Docker Compose ========================================
+docker-compose up -d
+
+Note: Need to change baseUrl to localhost:8080 in postman
+
+====================== Manual Step up ========================================
 To start the REST API
 create a database "catalog"
 - CREATE DATABASE catalog
