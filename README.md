@@ -2,6 +2,7 @@
 Product Management Rest API
 
 Requirement:
+
     We would like you to create a REST API for managing products. The API should allow the following actions:
         Create a new product
             When creating a new product, the name and price of the product need to be provided. Optionally, a description can also be provided. 
@@ -23,37 +24,42 @@ Requirement:
         
         Delete a product
             When a product is deleted, it should no longer be included in any of the API responses but should remain in the database for audit purposes.
+
 ==============================================================
-Create .env File 
-Add Below configurations
+    
+Create .env File and add Below configurations
 
-DB_NAME=catalog
-DB_USER=root
-DB_HOST=172.17.0.1
-DB_DRIVER=mysql
-DB_PASSWORD=rootnahihai
-DB_PORT=3307
+    DB_NAME=catalog
+    DB_USER=root
+    DB_HOST=172.17.0.1
+    DB_DRIVER=mysql
+    DB_PASSWORD=rootnahihai
+    DB_PORT=3307
 
-CURRENCY_APIKEY=ByR2N38kuKmOkPKzPBoQTw2NeleKpmu6
-CURRENCY_LIVE_RATES_API=https://api.apilayer.com/exchangerates_data/latest
-CURRENCY_CONVERT_API=https://api.apilayer.com/exchangerates_data/convert
-CURRENCIES=USD,CAD,EUR,GBP
-BASE_CURRENCY=USD
+    CURRENCY_APIKEY=ByR2N38kuKmOkPKzPBoQTw2NeleKpmu6
+    CURRENCY_LIVE_RATES_API=https://api.apilayer.com/exchangerates_data/latest
+    CURRENCY_CONVERT_API=https://api.apilayer.com/exchangerates_data/convert
+    CURRENCIES=USD,CAD,EUR,GBP
+    BASE_CURRENCY=USD
+
+    #Docker Configuration
+    MYSQLDB_USER=root
+    MYSQLDB_ROOT_PASSWORD=rootnahihai
+    MYSQLDB_DATABASE=catalog
+    MYSQLDB_LOCAL_PORT=3307
+    MYSQLDB_DOCKER_PORT=3306
+    NODE_LOCAL_PORT=8080
+    NODE_DOCKER_PORT=7700
 
 
-MYSQLDB_USER=root
-MYSQLDB_ROOT_PASSWORD=rootnahihai
-MYSQLDB_DATABASE=catalog
-MYSQLDB_LOCAL_PORT=3307
-MYSQLDB_DOCKER_PORT=3306
-NODE_LOCAL_PORT=8080
-NODE_DOCKER_PORT=7700
 ====================== Docker Compose ========================================
+
 docker-compose up -d
 
-Note: Need to change baseUrl to localhost:8080 in postman
+    Note: Need to change baseUrl to localhost:8080 in postman
 
 ====================== Manual Step up ========================================
+
 To start the REST API
 create a database "catalog"
 - CREATE DATABASE catalog
@@ -64,10 +70,11 @@ create a database "catalog"
 - ./node_modules/.bin/esdoc //To create/update the esdocs
 
 ==============================================================
+
 Development Environment Details
-Total: VS Code
-MySQL: 5.7
-Node: 16.13.1
-NPM: 8.10.0
-documentation tool: esdoc
-test: mocha and chai
+- IDE: VS Code
+- MySQL: 5.7
+- Node: 16.13.1
+- NPM: 8.10.0
+- Documentation Tool: esdoc
+- Test: mocha and chai
